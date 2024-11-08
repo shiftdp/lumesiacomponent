@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-component-lumesia
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/adr-location: docs/adrs
+    github.com/project-slug: shiftdp/lumesiacomponent
+  links:
+    - url: 'https://google.com'
+      title: 'my-component-lumesia Link'
+      # icon: ''
+      # type: ''
+spec:
+  system: system:default/mytestproductlumesia
+  type: service
+  owner: group:default/dev_team
+  lifecycle: experimental
+  project: goreply-playground-idp
